@@ -379,7 +379,7 @@ export default function App() {
                       <br />
                       Unisciti su Instagram e Facebook.
                     </p>
-                    <form class="flex  md:flex-row gap-5 justify-between py-2 pr-2 md:pr-1 md:py-1 pl-5 mt-7 max-w-full  rounded-2xl md:rounded-lg w-[546px] md:w-full">
+                    <form class="flex  md:flex-row gap-5 justify-between py-2 pr-2 md:pr-1 md:py-1 pl-5 mt-7 max-w-full bg-white rounded-2xl md:rounded-lg w-[546px] md:w-full">
                       <label for="email" class="sr-only md:text-xs">
                         Inserisci il tuo indirizzo email
                       </label>
