@@ -379,7 +379,7 @@ export default function App() {
                       <br />
                       Unisciti su Instagram e Facebook.
                     </p>
-                    <form class="flex  md:flex-row gap-5 justify-between py-2 pr-2 md:pr-1 md:py-1 pl-5 mt-7 max-w-full bg-white rounded-2xl md:rounded-lg w-[546px] md:w-full">
+                    <form class="flex  md:flex-row gap-5 justify-between py-2 pr-2 md:pr-1 md:py-1 pl-5 mt-7 max-w-full  rounded-2xl md:rounded-lg w-[546px] md:w-full">
                       <label for="email" class="sr-only md:text-xs">
                         Inserisci il tuo indirizzo email
                       </label>
@@ -387,12 +387,12 @@ export default function App() {
                         type="email"
                         id="email"
                         placeholder="Inserisci il tuo indirizzo email"
-                        class="my-auto text-base leading-9 text-stone-300"
+                        class="my-auto text-base leading-9 text-stone-600"
                         required
                       />
                       <button
                         type="submit"
-                        class="px-8 py-4 text-xl md:text-sm md:px-2 md:py-2 font-extrabold leading-snug text-center text-white uppercase whitespace-nowrap bg-orange-500 rounded-lg max-md:px-5"
+                        class="px-8 py-4 text-xl md:text-sm md:px-3 md:py-2 md:mr-14 font-extrabold leading-snug text-center text-white uppercase whitespace-nowrap bg-orange-500 rounded-lg max-md:px-5"
                       >
                         Iscrivimi
                       </button>
